@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Docker client must be installed.   This is outside the scope of this document
+
+To start the application run ```docker compose up```
+The containers will require several minutes to build
+Confirm the back end by visiting http://localhost:3000/api/ping
+Confirm the front end by visiting  http://localhost:3001/register
